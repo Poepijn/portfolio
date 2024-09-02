@@ -91,7 +91,7 @@ h2 {
 	color: white;
 	font-size: 3.5rem;
 	margin: 0;
-	font-style: normal;
+	
 }
 
 h3 {
@@ -101,7 +101,7 @@ h3 {
 	font-family: 'roboto';
 	font-size: 1.5em;
 	font-weight: 400;
-	font-style: normal;
+	
 }
 
 p {
@@ -111,7 +111,7 @@ p {
 	font-family: 'roboto';
 	font-weight: bold;
 	line-height: 1.1em;
-	font-style: normal;
+	
 }
 
 a {
@@ -341,13 +341,13 @@ header img {
 	font-family: 'roboto';
 	font-weight: bold;
 	line-height: 1.1em;
-	font-style: normal;
+	
 }
 
 .passie {
 	font-family: 'Lora';
 	font-style: italic;
-
+font-weight: 700;
 	font-size: 6rem;
 	color: white;
 	padding: 0;
@@ -428,7 +428,7 @@ details[open] summary:after {
 	font-size: 1.5rem;
 	color: #ff2200;
 	font-weight: 500;
-	font-style: normal;
+	
 	list-style: none;
 	margin: 0;
 	padding: 1rem 0;
@@ -479,7 +479,7 @@ input[type=radio]:after {
 	display: inline;
 	font-size: 1.8rem;
 	font-family: 'roboto';
-	font-style: normal;
+	
 	font-weight:600;
 	color: #ff2200;
 }
@@ -674,7 +674,7 @@ margin-bottom: 3em;
 	font-size: 1.5em;
 	font-weight: 400;
 	padding-right: 1em;
-	font-style: normal;
+	
 }
 
 .volgendeC {
@@ -684,7 +684,7 @@ margin-bottom: 3em;
 	color:#ff2200;
 	font-size:1.5em;
 	text-decoration:none;
-	font-style: normal;
+	
 }
 .schermenLLA{
 	columns:2;
@@ -852,7 +852,7 @@ margin-bottom: 3em;
 	margin: 2.4em 1em 1.2em 1em;
 	color:white;
 	font-size:3em;
-	font-style: normal;
+	
 }
 /*********/
 /*overmij*/
@@ -883,7 +883,7 @@ margin-bottom: 3em;
 .naam{
 	color:white;
 	font-size: 2em;
-	font-style: normal;
+	
 	font-weight: bold;
 	padding-left: 3.8em;
 	padding-top: 2em;
@@ -931,7 +931,7 @@ a {
 	color: #ff2200;
 	font-size: 2em;
 	font-family: 'roboto';
-	font-weight: normal;
+	
 }
 
 footer img {
