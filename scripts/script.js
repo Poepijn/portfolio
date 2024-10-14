@@ -53,7 +53,7 @@ function handleCircleAnimation() {
 const cursor = document.querySelectorAll('.cursor');
 const links = document.querySelectorAll("summary, a");
 
-window.addEventListener("mousemove", (e) => {
+document.addEventListener("mousemove", (e) => {
     let x = e.clientX;
     let y = e.clientY;
 cursor.style.display = "block";
