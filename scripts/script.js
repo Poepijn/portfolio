@@ -63,7 +63,7 @@ cursor.style.display = "block";
     });
 });
 
-window.addEventListener("mouseout", () => {
+document.addEventListener("mouseout", () => {
    cursor.style.display = "none"
     });
 
