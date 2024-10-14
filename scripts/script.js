@@ -56,12 +56,16 @@ const links = document.querySelectorAll("summary, a");
 window.addEventListener("mousemove", (e) => {
     let x = e.clientX;
     let y = e.clientY;
-
+cursor.style.display = "block";
     cursor.forEach(el => {
         el.style.top = `${y}px`;
         el.style.left = `${x}px`;
     });
 });
+
+window.addEventListener("mouseout", () => {
+   cursor.style.display = "none"
+    });
 
 links.forEach(link => {
     link.addEventListener("mouseenter", () => {
